@@ -2,7 +2,9 @@
 Answer to the first interview for the ML internship position.
 
 Q1: Suppose that we design a deep architecture to represent a sequence by stacking self-attention layers with positional encoding. What could be issues? (paragraph format)
+
 Ans:
+
 Since self-attention mechanisms will not take account of the sequence information from the input sentence, we need to addin such information with a positional encoding vector.
 
 The positional encoding vector is added to the input token sequence before input to the first layer. Encoding vectors are no longer neccesary for the rest layers, as the position information will already be merged into the learned attention values that output from the first layer.
@@ -29,5 +31,7 @@ Locality-sensitive hashing (LSH) attention is an algorithm used in Reformer mode
 
 
 Q2: Can you design a learnable positional encoding method using pytorch? (Create dummy dataset)
+
 Ans:
+
 Please refer to learnable_positional_encoding.py and screen_recording.mp4
