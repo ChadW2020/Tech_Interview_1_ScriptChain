@@ -34,4 +34,4 @@ Q2: Can you design a learnable positional encoding method using pytorch? (Create
 
 Ans:
 
-Please refer to learnable_positional_encoding.py and screen_recording.mp4
+Please refer to learnable_positional_encoding.py
